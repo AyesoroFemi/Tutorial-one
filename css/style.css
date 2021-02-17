@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ccc;
+}
+.top-box{
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    position: relative;
+}
+.top-box img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 10px;
+}
+.top-box h4{
+    padding-top: 40px;
+    color:rgb(14, 13, 13);
+}
+.top-box h4 .name-box{
+    font-weight: 100;
+    font-size: 12px;
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.material-icons{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.middle-box{
+    max-width: 350px;
+    height: 450px;
+    margin: 50px auto;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* display: flex; */
+    /* gap: 20px; */
+    background-color: white;
+    /* position: relative; */
+}
+.middle-box img{
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 10px;
+}
+.middle-box h4{
+    padding-top: 15px;
+    text-align:center;
+    color:rgb(14, 13, 13);
+}
+.middle-box p{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 20px;
+}
+.middle-box p .name-box{
+    font-weight: 100;
+    font-size: 12px;
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.middle-box button{
+    text-align: center;
+    padding: 15px 60px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    border:none;
+   /* margin-left: 100px; */
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.bottom-box{
+    max-width: 610px;
+    height: 350px;
+    margin: 50px auto;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* display: flex; */
+    /* gap: 20px; */
+    background-color: white;
+}
+.bottom-box .img-one img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height:150px;
+    width: 150px;
+    object-fit: cover;
+}
+.bottom-box .img-two img{
+    height:150px;
+    width: 250px;
+    object-fit: cover;
+}
+.bottom-box .img-three img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height:150px;
+    width: 150px;
+    object-fit: cover;
+}
+.bottom-box .flex-img{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.bottom-box h4{
+    padding: 15px 0 0 20px;
+    text-align:left;
+    color:rgb(14, 13, 13);
+}
+.bottom-box p{
+    font-size: 14px;
+    text-align: left;
+    padding: 15px 20px;
+}
+.bottom-box p .name-box{
+    font-weight: 100;
+    font-size: 12px;
+    text-decoration: underline;
+    color: dodgerblue;
+    padding-top: 10px;
+}
